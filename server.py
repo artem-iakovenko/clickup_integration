@@ -17,4 +17,4 @@ def calculate_resource():
     return jsonify({'status': msg, 'trigger_date': trigger_date})
 
 
-app.run(host='0.0.0.0', port=4010)
+app.run(host='0.0.0.0', port=7260)
